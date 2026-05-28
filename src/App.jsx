@@ -1,121 +1,75 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import ResumenArrdie from './components/ResumenArrdie'
+import MarcoArrdie from './components/MarcoArrdie'
+import DelitosArrdie from './components/DelitosArrdie'
+import ComparacionArrdie from './components/ComparacionArrdie'
+import ResponsabilidadesArrdie from './components/ResponsabilidadesArrdie'
+import DatosArrdie from './components/DatosArrdie'
+import ConclusionArrdie from './components/ConclusionArrdie'
+import PromptsArrdie from './components/PromptsArrdie'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [activeSection, setActiveSection] = useState(0)
+
+  const sections = [
+    { id: 0, name: 'Resumen', component: ResumenArrdie },
+    { id: 1, name: 'Marco Normativo', component: MarcoArrdie },
+    { id: 2, name: 'Delitos Informáticos', component: DelitosArrdie },
+    { id: 3, name: 'Comparación', component: ComparacionArrdie },
+    { id: 4, name: 'Responsabilidades', component: ResponsabilidadesArrdie },
+    { id: 5, name: 'Datos Personales', component: DatosArrdie },
+    { id: 6, name: 'Conclusión', component: ConclusionArrdie },
+    { id: 7, name: 'Prompts IA', component: PromptsArrdie }
+  ]
+
+  const CurrentComponent = sections[activeSection].component
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">
+      {/* Navigation */}
+      <nav className="sticky top-0 z-50 bg-gray-950 border-b border-gray-700 shadow-lg">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex items-center justify-between h-16">
+            <h1 className="text-2xl font-bold text-white">
+              📋 Caso Equifax 2017
+            </h1>
+          </div>
+          
+          {/* Navigation Tabs */}
+          <div className="overflow-x-auto scrollbar-hide">
+            <div className="flex space-x-2 pb-4 px-4 min-w-max">
+              {sections.map((section) => (
+                <button
+                  key={section.id}
+                  onClick={() => setActiveSection(section.id)}
+                  className={`px-4 py-2 rounded-lg font-semibold whitespace-nowrap transition-all ${
+                    activeSection === section.id
+                      ? 'bg-indigo-600 text-white shadow-lg'
+                      : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                  }`}
+                >
+                  {section.name}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+      </nav>
 
-      <div className="ticks"></div>
+      {/* Content */}
+      <main className="w-full">
+        <CurrentComponent />
+      </main>
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+      {/* Footer */}
+      <footer className="bg-gray-950 border-t border-gray-700 text-gray-400 py-6 mt-8">
+        <div className="max-w-7xl mx-auto px-4 text-center text-sm">
+          <p>Análisis jurídico del caso Equifax 2017 - Integración de Tailwind CSS</p>
+          <p className="mt-2 text-gray-500">Componentes React con diseño responsive</p>
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+      </footer>
+    </div>
   )
 }
 
