@@ -1,4 +1,4 @@
-export default function PromptsArrdie() {
+export default function Prompts() {
   const secciones = [
     {
       seccion: "Resumen ejecutivo",
@@ -45,12 +45,46 @@ export default function PromptsArrdie() {
       seccion: "Responsabilidades",
       prompt: '"Identifica actores responsables en el caso Equifax y desarrolla sus responsabilidades penales, civiles y administrativas con cita de normas."',
       correccionesRealizadas: [
-        "Identificar actores claramente diferenciados",
-        "Desarrollar responsabilidades en categorías específicas",
-        "Incluir citas de normativas aplicables",
-        "Estructurar de manera jurídicamente formal"
+        "Limitar el análisis a tres actores",
+        "Distinguir dos tipos de responsabilidad para cada actor",
+        "Eliminar información innecesaria",
+        "Mantener relación directa con la rúbrica"
       ],
-      justificacion: "Se requería un análisis profundo de responsabilidades diferenciadas por tipo de actor y naturaleza de la responsabilidad."
+      justificacion: "La primera versión contenía información adicional que excedía lo solicitado y dificultaba la claridad del análisis."
+    },
+    {
+      seccion: "Tratamiento de datos",
+      prompt: '"Analiza el tratamiento de datos en el caso Equifax según la Ley 19.628, diferenciando datos personales y sensibles y desarrollando derechos ARCO afectados."',
+      correccionesRealizadas: [
+        "Listar tres tipos de datos comprometidos",
+        "Incluir citas textuales de la Ley 19.628",
+        "Analizar tres derechos ARCO específicos",
+        "Mejorar diferenciación entre datos personales y sensibles"
+      ],
+      justificacion: "La respuesta inicial mencionaba conceptos generales, pero no cumplía completamente con los criterios específicos exigidos por la rúbrica."
+    },
+    {
+      seccion: "Conclusión y recomendaciones",
+      prompt: '"Crea recomendaciones de seguridad y una reflexión final del análisis del caso Equifax."',
+      correccionesRealizadas: [
+        "Redactar en tono formal",
+        "Evitar una conclusión demasiado breve",
+        "Relacionar las recomendaciones con las fallas observadas en el caso"
+      ],
+      justificacion: "La primera respuesta era muy general y no conectaba adecuadamente las recomendaciones con los hechos del incidente analizado."
+    },
+    {
+      seccion: "Integración React, Markdown y Tailwind CSS",
+      prompt: '"nececito que crees .jsx para cada markdown de la carpeta doc_arrdie, estos .jsx deben estar en la carpeta components y aparte necesito que instales tailwind CSS y lo integres en los .jsx que vas a crear"',
+      correccionesRealizadas: [
+        "Mantener la correspondencia entre cada archivo .md y su componente .jsx",
+        "Integrar correctamente react-markdown y remark-gfm",
+        "Instalar y configurar Tailwind CSS dentro del proyecto React",
+        "Mejorar la visualización de tablas y títulos Markdown",
+        "Mantener el contenido original sin modificaciones",
+        "Crear componentes organizados dentro de src/components"
+      ],
+      justificacion: "La integración inicial no consideraba completamente la estructura necesaria para renderizar correctamente los archivos Markdown dentro de React ni la correcta configuración visual utilizando Tailwind CSS."
     }
   ];
 
@@ -128,35 +162,38 @@ export default function PromptsArrdie() {
           </div>
         </div>
 
-        <div className="mt-8 bg-purple-50 border-l-4 border-purple-500 rounded-lg p-8">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">Reflexión sobre el proceso</h3>
+        <div className="mt-8 bg-purple-50 border-l-4 border-purple-500 rounded-lg p-8 mb-8">
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Reflexión Final sobre el Uso de IA</h3>
           
           <p className="text-gray-700 mb-4">
-            El uso de inteligencia artificial en la elaboración de este análisis cumplió un rol fundamental como herramienta de apoyo, permitiendo:
+            La inteligencia artificial fue utilizada como una herramienta de apoyo para organizar ideas, estructurar información y facilitar la redacción del informe. Sin embargo, fue necesario revisar y corregir continuamente las respuestas obtenidas para ajustarlas a los requisitos específicos de la rúbrica y al contexto jurídico del caso Equifax.
           </p>
 
-          <ul className="space-y-2 text-gray-700 ml-4 mb-4">
-            <li className="flex items-start">
-              <span className="mr-3">🤖</span>
-              <span>Procesar y organizar grandes volúmenes de información jurídica y técnica</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3">📚</span>
-              <span>Mejorar la claridad y estructura de contenidos complejos</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3">⚖️</span>
-              <span>Asegurar precisión en la interpretación de normativas</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3">✨</span>
-              <span>Optimizar tiempos de investigación y redacción</span>
-            </li>
-          </ul>
-
-          <p className="text-gray-700 text-sm italic">
-            Sin embargo, el análisis final, las decisiones sobre estructura y contenido, y la validación de información fueron responsabilidad del redactor, lo que garantiza calidad académica y precisión jurídica en cada apartado.
+          <p className="text-gray-700 mb-4">
+            El uso de IA permitió acelerar tareas relacionadas con redacción, síntesis de información, organización de contenidos, estructuración en Markdown e integración de contenido Markdown dentro de React. No obstante, también fue necesario validar información, corregir formatos y adaptar las respuestas para asegurar coherencia y precisión.
           </p>
+
+          <div className="bg-white rounded-lg p-4 mb-4">
+            <h4 className="font-bold text-gray-900 mb-3">Roles de la IA en el Proyecto</h4>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h5 className="font-semibold text-gray-900 mb-2">Como Chatbot:</h5>
+                <p className="text-gray-700 text-sm">Respondió preguntas específicas y entregó explicaciones directas sobre leyes, conceptos y funcionamiento de herramientas tecnológicas.</p>
+              </div>
+              
+              <div className="border-l-4 border-green-500 pl-4">
+                <h5 className="font-semibold text-gray-900 mb-2">Como Agente:</h5>
+                <p className="text-gray-700 text-sm">Ayudó a estructurar secciones completas, adaptar contenidos según la rúbrica, reorganizar información, generar componentes React e integración visual mediante Tailwind CSS.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+            <p className="text-gray-700 text-sm">
+              <strong>Conclusión:</strong> Esto demuestra que la IA puede funcionar no solo como una herramienta conversacional, sino también como apoyo activo en procesos de análisis, redacción, programación y organización de información académica y técnica.
+            </p>
+          </div>
         </div>
       </div>
     </div>

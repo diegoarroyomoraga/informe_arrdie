@@ -1,4 +1,4 @@
-export default function DelitosArrdie() {
+export default function Delitos() {
   const delitos = [
     {
       articulo: "Artículo 1",

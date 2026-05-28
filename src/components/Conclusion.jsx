@@ -1,4 +1,4 @@
-export default function ConclusionArrdie() {
+export default function Conclusion() {
   const recomendaciones = [
     {
       titulo: "Actualización permanente de sistemas",

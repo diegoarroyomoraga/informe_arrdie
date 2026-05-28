@@ -1,4 +1,4 @@
-export default function ResponsabilidadesArrdie() {
+export default function Responsabilidades() {
   const actores = [
     {
       actor: "Atacantes responsables de la intrusión",

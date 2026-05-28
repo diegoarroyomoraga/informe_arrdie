@@ -1,4 +1,4 @@
-export default function ComparacionArrdie() {
+export default function Comparacion() {
   const marcos = [
     {
       nombre: "Ley 21.459",

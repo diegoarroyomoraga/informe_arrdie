@@ -1,4 +1,4 @@
-export default function DatosArrdie() {
+export default function Datos() {
   const tiposDatos = [
     {
       categoria: "Datos de identificación personal",

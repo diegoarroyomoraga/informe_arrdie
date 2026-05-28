@@ -1,26 +1,26 @@
 import { useState } from 'react'
-import ResumenArrdie from './components/ResumenArrdie'
-import MarcoArrdie from './components/MarcoArrdie'
-import DelitosArrdie from './components/DelitosArrdie'
-import ComparacionArrdie from './components/ComparacionArrdie'
-import ResponsabilidadesArrdie from './components/ResponsabilidadesArrdie'
-import DatosArrdie from './components/DatosArrdie'
-import ConclusionArrdie from './components/ConclusionArrdie'
-import PromptsArrdie from './components/PromptsArrdie'
+import Resumen from './components/Resumen'
+import Marco from './components/Marco'
+import Delitos from './components/Delitos'
+import Comparacion from './components/Comparacion'
+import Responsabilidades from './components/Responsabilidades'
+import Datos from './components/Datos'
+import Conclusion from './components/Conclusion'
+import Prompts from './components/Prompts'
 import './App.css'
 
 function App() {
   const [activeSection, setActiveSection] = useState(0)
 
   const sections = [
-    { id: 0, name: 'Resumen', component: ResumenArrdie },
-    { id: 1, name: 'Marco Normativo', component: MarcoArrdie },
-    { id: 2, name: 'Delitos Informáticos', component: DelitosArrdie },
-    { id: 3, name: 'Comparación', component: ComparacionArrdie },
-    { id: 4, name: 'Responsabilidades', component: ResponsabilidadesArrdie },
-    { id: 5, name: 'Datos Personales', component: DatosArrdie },
-    { id: 6, name: 'Conclusión', component: ConclusionArrdie },
-    { id: 7, name: 'Prompts IA', component: PromptsArrdie }
+    { id: 0, name: 'Resumen', component: Resumen },
+    { id: 1, name: 'Marco Normativo', component: Marco },
+    { id: 2, name: 'Delitos Informáticos', component: Delitos },
+    { id: 3, name: 'Comparación', component: Comparacion },
+    { id: 4, name: 'Responsabilidades', component: Responsabilidades },
+    { id: 5, name: 'Datos Personales', component: Datos },
+    { id: 6, name: 'Conclusión', component: Conclusion },
+    { id: 7, name: 'Prompts IA', component: Prompts }
   ]
 
   const CurrentComponent = sections[activeSection].component

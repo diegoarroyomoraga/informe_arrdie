@@ -9,6 +9,7 @@ La IA fue utilizada principalmente para:
 - redacción de contenidos.
 - explicación de normas legales.
 - apoyo en interpretación de la rúbrica.
+- integración de Markdown con React y Tailwind CSS.
 
 ---
 
@@ -81,8 +82,8 @@ La respuesta inicial no seguía la estructura requerida por la rúbrica y faltab
 ### Correcciones realizadas
 
 Se solicitó:
-- incluir columna de aplicabilidad al caso;
-- adaptar la tabla a formato Markdown;
+- incluir columna de aplicabilidad al caso.
+- adaptar la tabla a formato Markdown.
 - utilizar ejes solicitados por la rúbrica como alcance, sanción y sujeto regulado.
 
 ### Justificación
@@ -100,9 +101,9 @@ La tabla inicial no cumplía completamente los requisitos específicos estableci
 ### Correcciones realizadas
 
 Se pidió:
-- limitar el análisis a tres actores;
-- distinguir dos tipos de responsabilidad para cada actor;
-- eliminar información innecesaria;
+- limitar el análisis a tres actores.
+- distinguir dos tipos de responsabilidad para cada actor.
+- eliminar información innecesaria.
 - mantener relación directa con la rúbrica.
 
 ### Justificación
@@ -120,9 +121,9 @@ La primera versión contenía información adicional que excedía lo solicitado 
 ### Correcciones realizadas
 
 Se solicitó:
-- listar tres tipos de datos comprometidos;
-- incluir citas textuales de la Ley 19.628;
-- analizar tres derechos ARCO específicos;
+- listar tres tipos de datos comprometidos.
+- incluir citas textuales de la Ley 19.628.
+- analizar tres derechos ARCO específicos.
 - mejorar diferenciación entre datos personales y sensibles.
 
 ### Justificación
@@ -140,13 +141,35 @@ La respuesta inicial mencionaba conceptos generales, pero no cumplía completame
 ### Correcciones realizadas
 
 Se pidió:
-- redactar en tono formal;
-- evitar una conclusión demasiado breve;
+- redactar en tono formal.
+- evitar una conclusión demasiado breve.
 - relacionar las recomendaciones con las fallas observadas en el caso.
 
 ### Justificación
 
 La primera respuesta era muy general y no conectaba adecuadamente las recomendaciones con los hechos del incidente analizado.
+
+---
+
+## Integración React, Markdown y Tailwind CSS
+
+### Prompt utilizado
+
+> “nececito que crees .jsx para cada markdown de la carpeta doc_arrdie, estos .jsx deben estar en la carpeta components y aparte necesito que instales tailwind CSS y lo integres en los .jsx que vas a crear”
+
+### Correcciones realizadas
+
+Se solicitó:
+- mantener la correspondencia entre cada archivo `.md` y su componente `.jsx`.
+- integrar correctamente `react-markdown` y `remark-gfm`.
+- instalar y configurar Tailwind CSS dentro del proyecto React creado con Vite.
+- mejorar la visualización de tablas y títulos Markdown.
+- mantener el contenido original de los archivos `.md` sin modificaciones.
+- crear componentes organizados dentro de `src/components`.
+
+### Justificación
+
+La integración inicial no consideraba completamente la estructura necesaria para renderizar correctamente los archivos Markdown dentro de React ni la correcta configuración visual utilizando Tailwind CSS.
 
 ---
 
@@ -158,7 +181,8 @@ El uso de IA permitió acelerar tareas relacionadas con:
 - redacción;
 - síntesis de información;
 - organización de contenidos;
-- estructuración en Markdown.
+- estructuración en Markdown;
+- integración de contenido Markdown dentro de React.
 
 No obstante, también fue necesario validar información, corregir formatos y adaptar las respuestas para asegurar coherencia y precisión dentro del análisis.
 
@@ -166,6 +190,6 @@ Durante el desarrollo del informe, la IA fue utilizada tanto como chatbot como a
 
 Como chatbot, respondió preguntas específicas y entregó explicaciones directas sobre leyes, conceptos y funcionamiento de herramientas tecnológicas.
 
-Como agente, ayudó a estructurar secciones completas del informe, adaptar contenidos según la rúbrica, reorganizar información y generar versiones corregidas en función de instrucciones posteriores.
+Como agente, ayudó a estructurar secciones completas del informe, adaptar contenidos según la rúbrica, reorganizar información, generar componentes React y asistir en la integración visual del proyecto mediante Tailwind CSS y renderizado Markdown.
 
-Esto demuestra que la IA puede funcionar no solo como una herramienta conversacional, sino también como apoyo activo en procesos de análisis, redacción y organización de información académica y técnica.
+Esto demuestra que la IA puede funcionar no solo como una herramienta conversacional, sino también como apoyo activo en procesos de análisis, redacción, programación y organización de información académica y técnica.
