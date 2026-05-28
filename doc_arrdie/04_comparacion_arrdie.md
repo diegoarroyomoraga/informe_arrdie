@@ -1,4 +1,4 @@
-Tabla comparativa de marcos regulatorios aplicables al caso Equifax
+# Tabla comparativa de marcos regulatorios aplicables al caso Equifax
 
 | Marco regulatorio | Alcance | Sanciones | Sujeto regulado | Jurisdicción | Aplicabilidad al caso Equifax |
 |---|---|---|---|---|---|
@@ -8,9 +8,11 @@ Tabla comparativa de marcos regulatorios aplicables al caso Equifax
 | Gramm-Leach-Bliley Act (GLBA) | Regula la protección de información financiera de consumidores. | Contempla sanciones regulatorias por incumplimientos relacionados con protección de datos financieros. | Instituciones financieras y agencias de crédito. | Estados Unidos | Aplica debido a que Equifax operaba como agencia crediticia y manejaba información financiera altamente sensible de millones de personas. |
 | GDPR (General Data Protection Regulation) | Regula estrictamente la protección y tratamiento de datos personales. | Establece fuertes multas económicas y obligaciones de notificación de incidentes. | Empresas y organizaciones que procesen datos personales de ciudadanos europeos. | Unión Europea | Resulta relevante como estándar internacional de protección de datos y por las obligaciones relacionadas con seguridad y notificación de brechas de información. |
 
-Comparación de marcos regulatorios aplicados al caso Equifax
+---
 
-Alcance
+# Comparación de marcos regulatorios aplicados al caso Equifax
+
+## Alcance
 
 La Ley 21.459 se enfoca principalmente en sancionar delitos informáticos relacionados con accesos ilícitos, ataques a sistemas y utilización indebida de información digital. En cambio, la Ley 19.628 y el GDPR tienen un enfoque orientado principalmente a la protección de datos personales y privacidad de los usuarios.
 
@@ -18,7 +20,9 @@ La FTC Act y la GLBA poseen un alcance más relacionado con protección del cons
 
 En el caso Equifax, todas estas regulaciones resultan relevantes debido a que el incidente involucró tanto delitos informáticos como exposición masiva de datos personales y financieros.
 
-Sanciones
+---
+
+## Sanciones
 
 Las sanciones contempladas por cada normativa presentan diferencias importantes. La Ley 21.459 establece sanciones penales relacionadas con delitos informáticos, mientras que la Ley 19.628 regula responsabilidades asociadas al tratamiento indebido de datos personales.
 
@@ -26,7 +30,9 @@ El GDPR contempla algunas de las multas económicas más altas a nivel internaci
 
 En el caso Equifax, la empresa enfrentó acuerdos millonarios, investigaciones regulatorias y fuertes consecuencias económicas derivadas de las fallas de seguridad detectadas.
 
-Sujeto regulado
+---
+
+## Sujeto regulado
 
 La Ley 21.459 se enfoca principalmente en personas responsables de cometer delitos informáticos y vulnerar sistemas tecnológicos.
 
@@ -36,7 +42,9 @@ La FTC Act posee un alcance amplio sobre empresas y organizaciones comerciales q
 
 En el caso Equifax, las regulaciones resultan aplicables tanto a los atacantes responsables de la intrusión como a la empresa encargada de proteger los datos comprometidos.
 
-Jurisdicción
+---
+
+## Jurisdicción
 
 La Ley 21.459 y la Ley 19.628 corresponden a normativas chilenas, utilizadas en este análisis para evaluar cómo podría abordarse el caso bajo legislación nacional.
 

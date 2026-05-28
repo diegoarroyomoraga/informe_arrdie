@@ -1,10 +1,8 @@
-Tipificación de delitos informáticos según la Ley 21.459
+# Tipificación de delitos informáticos según la Ley 21.459
 
-Ataque a la integridad de un sistema informático
+# Artículo 1 (Ataque a la integridad de un sistema informático).
 
-Artículo 1 (Ataque a la integridad de un sistema informático).
-
-Relación con el caso
+# Relación con el caso
 
 El ataque realizado contra Equifax afectó directamente la seguridad e integridad de los sistemas informáticos utilizados por la empresa para almacenar y gestionar información sensible.
 
@@ -12,17 +10,19 @@ La explotación de la vulnerabilidad permitió alterar el funcionamiento seguro 
 
 La permanencia de los atacantes dentro de la red corporativa durante un período prolongado evidencia una vulneración importante de la integridad del entorno informático, situación contemplada dentro de la Ley 21.459.
 
-Acción del atacante
+## Acción del atacante
 
-vulneración de sistemas informáticos.
-alteración de mecanismos de seguridad.
-compromiso de infraestructura tecnológica.
-explotación de fallas de seguridad.
-Acceso ilícito a sistemas informáticos
+- vulneración de sistemas informáticos.
+- alteración de mecanismos de seguridad.
+- compromiso de infraestructura tecnológica.
+- explotación de fallas de seguridad.
+- Acceso ilícito a sistemas informáticos
 
-Artículo 2 (Acceso ilícito).
+---
 
-Relación con el caso
+# Artículo 2 (Acceso ilícito).
+
+## Relación con el caso
 
 En el caso Equifax, los atacantes lograron ingresar sin autorización a los sistemas informáticos de la empresa explotando una vulnerabilidad crítica presente en Apache Struts. Esta vulnerabilidad permitió ejecutar comandos de manera remota y acceder a servidores internos que almacenaban información confidencial de millones de usuarios.
 
@@ -30,17 +30,19 @@ La conducta realizada por los atacantes se relaciona directamente con el delito 
 
 El acceso ilegal permitió a los atacantes moverse dentro de la infraestructura tecnológica de la empresa y mantenerse activos durante varias semanas sin ser detectados, comprometiendo la seguridad de la organización y de la información almacenada.
 
-Acción del atacante
+## Acción del atacante
 
-explotación de vulnerabilidad informática.
-ingreso no autorizado a servidores.
-acceso ilegítimo a sistemas protegidos.
-permanencia no autorizada dentro de la infraestructura tecnológica.
-Ataque a la integridad de los datos informáticos
+- explotación de vulnerabilidad informática.
+- ingreso no autorizado a servidores.
+- acceso ilegítimo a sistemas protegidos.
+- permanencia no autorizada dentro de la infraestructura tecnológica.
+- Ataque a la integridad de los datos informáticos
 
-Artículo 3 (Ataque a la integridad de los datos informáticos).
+---
 
-Relación con el caso
+# Artículo 3 (Ataque a la integridad de los datos informáticos).
+
+## Relación con el caso
 
 Durante el ataque, los responsables obtuvieron acceso a bases de datos que contenían información personal y financiera de millones de personas. La extracción y manipulación no autorizada de esta información comprometió la confidencialidad e integridad de los datos almacenados por Equifax.
 
@@ -48,17 +50,19 @@ Los atacantes lograron acceder a información altamente sensible, incluyendo nom
 
 Este tipo de conducta resulta especialmente grave debido a la gran cantidad de personas afectadas y al valor de la información comprometida, la cual podía ser utilizada posteriormente para actividades fraudulentas.
 
-Acción del atacante
+## Acción del atacante
 
-extracción de datos personales.
-acceso ilegal a bases de datos.
-obtención no autorizada de información confidencial.
-compromiso de datos financieros y personales.
-Receptación de datos informáticos
+- extracción de datos personales.
+- acceso ilegal a bases de datos.
+- obtención no autorizada de información confidencial.
+- compromiso de datos financieros y personales.
+- Receptación de datos informáticos
 
-Artículo 6 (Receptación de datos informáticos).
+---
 
-Relación con el caso
+# Artículo 6 (Receptación de datos informáticos).
+
+## Relación con el caso
 
 La información obtenida ilegalmente durante el ataque podía ser almacenada, compartida, comercializada o utilizada posteriormente por terceros para cometer otros delitos relacionados con fraude financiero y robo de identidad.
 
@@ -66,17 +70,19 @@ La Ley 21.459 contempla responsabilidad respecto a quienes utilicen, comercialic
 
 En el caso Equifax, la gran cantidad de datos personales comprometidos aumentó significativamente el riesgo de utilización indebida por parte de terceros, especialmente considerando el valor financiero y personal de la información sustraída.
 
-Acción relacionada
+## Acción relacionada
 
-almacenamiento de datos robados.
-utilización de información filtrada.
-distribución de datos obtenidos ilícitamente.
-posible comercialización ilegal de información personal.
-Fraude informático
+- almacenamiento de datos robados.
+- utilización de información filtrada.
+- distribución de datos obtenidos ilícitamente.
+- posible comercialización ilegal de información personal.
+- Fraude informático
 
-Artículo 7 (Fraude informático).
+---
 
-Relación con el caso
+# Artículo 7 (Fraude informático).
+
+## Relación con el caso
 
 La información financiera y personal obtenida durante la brecha podía ser utilizada para cometer fraudes relacionados con identidad digital, créditos bancarios y operaciones financieras ilegítimas.
 
@@ -86,9 +92,9 @@ La exposición de números de seguridad social, datos financieros y antecedentes
 
 La Ley 21.459 considera fraude informático aquellas conductas destinadas a obtener beneficios económicos mediante manipulación o utilización indebida de sistemas y datos informáticos, situación que puede relacionarse con el uso posterior de la información filtrada en el caso Equifax.
 
-Acción relacionada
+## Acción relacionada
 
-utilización fraudulenta de datos personales.
-fraude financiero.
-robo de identidad.
-uso indebido de información confidencial.
+- utilización fraudulenta de datos personales.
+- fraude financiero.
+- robo de identidad.
+- uso indebido de información confidencial.

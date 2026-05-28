@@ -1,6 +1,6 @@
-Marco normativo nacional e internacional aplicable al caso Equifax
+# Marco normativo nacional e internacional aplicable al caso Equifax
 
-Ley 21.459 sobre Delitos Informáticos (Chile)
+# Ley 21.459 sobre Delitos Informáticos (Chile)
 
 La Ley 21.459 es la principal normativa chilena que regula y sanciona los delitos informáticos. Esta ley protege la seguridad de los sistemas informáticos, la confidencialidad de los datos y la integridad de la información digital frente a accesos no autorizados o ataques tecnológicos.
 
@@ -10,7 +10,9 @@ La normativa también es relevante porque el ataque afectó elementos fundamenta
 
 Además, el caso demuestra la importancia de la Ley 21.459 frente a ataques modernos de ciberseguridad, donde la explotación de vulnerabilidades y el robo masivo de información representan riesgos importantes para empresas y ciudadanos.
 
-Ley 19.628 sobre Protección de la Vida Privada (Chile)
+---
+
+# Ley 19.628 sobre Protección de la Vida Privada (Chile)
 
 La Ley 19.628 regula en Chile el tratamiento y protección de datos personales. Su objetivo es establecer obligaciones para las organizaciones que recopilan, almacenan y utilizan información relacionada con personas naturales.
 
@@ -22,7 +24,9 @@ Otro aspecto importante es que la exposición de datos personales afectó derech
 
 Si un incidente similar ocurriera en Chile, la Ley 19.628 permitiría analizar las responsabilidades de la empresa respecto al tratamiento y resguardo de información privada.
 
-Federal Trade Commission Act — FTC Act (Estados Unidos)
+---
+
+# Federal Trade Commission Act — FTC Act (Estados Unidos)
 
 La FTC Act es una normativa estadounidense que permite a la Federal Trade Commission investigar y sancionar prácticas comerciales consideradas injustas o engañosas, especialmente aquellas relacionadas con protección de consumidores y seguridad de datos.
 
@@ -34,7 +38,9 @@ La normativa fue fundamental para establecer sanciones económicas y acuerdos ju
 
 Este caso se transformó en uno de los ejemplos más relevantes de aplicación de regulaciones de protección de consumidores frente a incidentes de ciberseguridad.
 
-Gramm-Leach-Bliley Act — GLBA (Estados Unidos)
+---
+
+# Gramm-Leach-Bliley Act — GLBA (Estados Unidos)
 
 La Gramm-Leach-Bliley Act es una ley estadounidense enfocada en la protección de información financiera de los consumidores. Esta normativa obliga a instituciones financieras y empresas relacionadas con servicios crediticios a implementar medidas de seguridad para resguardar los datos de sus clientes.
 
@@ -46,7 +52,9 @@ La brecha demostró que los mecanismos de control implementados por la empresa n
 
 La GLBA resulta especialmente relevante porque el incidente afectó directamente información financiera protegida por esta normativa, convirtiendo el caso en un referente internacional sobre responsabilidad empresarial en protección de datos financieros.
 
-General Data Protection Regulation — GDPR (Unión Europea)
+---
+
+# General Data Protection Regulation — GDPR (Unión Europea)
 
 El GDPR es una de las regulaciones de protección de datos personales más importantes a nivel internacional. Esta normativa europea establece obligaciones estrictas para las organizaciones que recopilan y procesan información de ciudadanos de la Unión Europea.
 
