@@ -136,7 +136,7 @@ La respuesta inicial mencionaba conceptos generales, pero no cumplía completame
 
 ### Prompt utilizado
 
-> “Crea recomendaciones de seguridad y una reflexión final del análisis del caso Equifax.”
+> “Ayudame a crear una conclusion ademas de que tipos de normas de segurida recomendarias para esta conclusion.”
 
 ### Correcciones realizadas
 

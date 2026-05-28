@@ -18,7 +18,7 @@ function App() {
     { id: 2, name: 'Delitos Informáticos', component: Delitos },
     { id: 3, name: 'Comparación', component: Comparacion },
     { id: 4, name: 'Responsabilidades', component: Responsabilidades },
-    { id: 5, name: 'Datos Personales', component: Datos },
+    { id: 5, name: 'Datos', component: Datos },
     { id: 6, name: 'Conclusión', component: Conclusion },
     { id: 7, name: 'Prompts IA', component: Prompts }
   ]
@@ -64,9 +64,21 @@ function App() {
 
       {/* Footer */}
       <footer className="bg-gray-950 border-t border-gray-700 text-gray-400 py-6 mt-8">
-        <div className="max-w-7xl mx-auto px-4 text-center text-sm">
-          <p>Análisis jurídico del caso Equifax 2017 - Integración de Tailwind CSS</p>
-          <p className="mt-2 text-gray-500">Componentes React con diseño responsive</p>
+        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-center justify-between text-sm">
+          <div className="text-center md:text-left">
+            <p>Creado por el estudiante: Diego Hector Arroyo Moraga</p>
+            <p className="mt-2 text-gray-500">Analista Programador | Inacap Valparaiso 2026</p>
+          </div>
+
+          <a
+            href="https://github.com/diegoarroyomoraga/informe_arrdie.git"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 md:mt-0 inline-flex items-center px-3 py-1 bg-gray-800 text-white text-sm font-medium rounded-md shadow hover:bg-gray-700 transition"
+            aria-label="Link de github - abrir repositorio en nueva pestaña"
+          >
+            Link de github
+          </a>
         </div>
       </footer>
     </div>
